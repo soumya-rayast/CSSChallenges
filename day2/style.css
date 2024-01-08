@@ -20,6 +20,8 @@ body {
 
 img {
     width: 300px;
+    height: 240px;
+    border-radius: 10px 10px 0px 0px;
 }
 
 .card {
@@ -56,10 +58,17 @@ img {
 }
 
 h3 {
-    margin: 8px 0 0;
+    margin: 2px 0 0;
     padding: 0;
     text-align: center;
+    font-size: 18px;
+    color: rgb(10, 10, 10);
 
+}
+
+h4 {
+    margin: 0;
+    text-align: center;
 }
 
 .container .card .face.face2 {
@@ -67,10 +76,11 @@ h3 {
     background: skyblue;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 30px;
     box-sizing: border-box;
-    box-shadow: 0 20px 50px black;
+    box-shadow: 0 20px 50px rgb(14, 67, 212);
     transform: translateY(-120px);
+    border-radius: 10px;
 
 }
 
@@ -79,8 +89,8 @@ h3 {
 }
 
 .container .card:hover .face.face2 .content p {
-    margin: 10px;
-    padding: 0;
+    margin: 1px;
+    padding: 4px;
 }
 
 .container .card:hover .face.face2 .content a {
@@ -88,11 +98,19 @@ h3 {
     display: inline-block;
     text-decoration: none;
     font-weight: 800;
-    color: aquamarine;
-    padding: 15px;
-    border:  1px solid black;
+    color: black;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
 }
-.container .card:hover .face.face2 .content a:hover{
+
+.container .card:hover .face.face2 .content a:hover {
     background-color: black;
     color: white;
+}
+@media screen and (max-width: 13000px) {
+    .container {
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
 }

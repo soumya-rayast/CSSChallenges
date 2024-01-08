@@ -1,0 +1,98 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url(./assets/strawhat-pirates-anime-bottles-hat-wallpaper-preview.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 1000px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+img {
+    width: 300px;
+}
+
+.card {
+    position: relative;
+    cursor: pointer;
+}
+
+.face {
+    width: 300px;
+    height: 200px;
+    transition: 0.5s;
+}
+
+.container .card .face.face1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform: translateY(100px);
+}
+
+.container .card:hover .face.face1 {
+    background-color: antiquewhite;
+    transform: translateY(0);
+}
+
+.container .card .face.face1 .content {
+    transition: 0.5s;
+}
+
+.container .card:hover .face.face1 .content {
+    opacity: 1;
+}
+
+h3 {
+    margin: 8px 0 0;
+    padding: 0;
+    text-align: center;
+
+}
+
+.container .card .face.face2 {
+    position: relative;
+    background: skyblue;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 20px 50px black;
+    transform: translateY(-120px);
+
+}
+
+.container .card:hover .face.face2 {
+    transform: translateY(0);
+}
+
+.container .card:hover .face.face2 .content p {
+    margin: 10px;
+    padding: 0;
+}
+
+.container .card:hover .face.face2 .content a {
+    margin: 15px 0 0;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 800;
+    color: aquamarine;
+    padding: 15px;
+    border:  1px solid black;
+}
+.container .card:hover .face.face2 .content a:hover{
+    background-color: black;
+    color: white;
+}

@@ -22,6 +22,7 @@
     </header>
 
     <div class="container">
+        <span class="icon-close"><i class="fa-sharp fa-solid fa-xmark"></i></span>
         <div class="form-box login">
             <h2>Login</h2>
             <form action="#">
@@ -42,7 +43,7 @@
                     </label>
                     <a href="">Forget Password?</a>
                 </div>
-                <button type="submit" class="btn">Login</button>
+                <button type="submit" class="btn ">Login</button>
                 <div class="login-register">
                     <p>Don't have an account ?
                         <a href="#" class="register-link">Register</a>
@@ -50,7 +51,44 @@
                 </div>
             </form>
         </div>
+
+
+
+
+        <div class="form-box register">
+            <h2>Registration</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><i class="fa-solid fa-user"></i></span>
+                    <input type="text" class="" required>
+                    <label for="">Usernsme</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+                    <input type="email" class="" required>
+                    <label for="">Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><i class="fa-solid fa-lock"></i></span>
+                    <input type="password" class="" required>
+                    <label for="">Password</label>
+                </div>
+                <div class="remember-forget">
+                    <label for="">
+                        <input type="checkbox">
+                        I agree to the terms and conditions
+                    </label>
+                </div>
+                <button type="submit" class="btn">Rsgister</button>
+                <div class="login-register">
+                    <p>Already have an account ?
+                        <a href="#" class="login-link">Login</a>
+                    </p>
+                </div>
+            </form>
+        </div>
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>

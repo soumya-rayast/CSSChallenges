@@ -10,4 +10,7 @@
 <h4>Responsive View</h4> 
 ![image](https://github.com/soumya-rayast/30DaysCSSChallenges/assets/113257526/873edd08-96dc-4292-873c-45a62ae963a0)
 
+<h1>Website With Login And Register</h1>
+#Dsktop View
+![image](https://github.com/soumya-rayast/30DaysCSSChallenges/assets/113257526/f544368e-089b-4f02-ad5a-176f06afdf40)
 
